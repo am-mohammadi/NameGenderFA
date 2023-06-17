@@ -10,10 +10,20 @@ https://github.com/peymanslh/persian-gender-detection
 
 class Gender_detector:
     def __init__(self):
-        self.names=pd.read_excel('names.xlsx')
+        # self.names=pd.read_excel('names.xlsx')
+        print('Loading data...')
+        self.names=pd.read_excel('https://raw.githubusercontent.com/am-mohammadi/NameGenderFA/main/NameGenderFA/src/NameGenderFA/names.xlsx')
+        print('Data loaded.')
         self.perfixes=[
             'سیده',
             'سید'
+            ]
+        
+        self.replace_chars=[
+            {'old': 'ي', 'new': 'ی'},
+            {'old': 'ک', 'new': 'ک'},
+            {'old': 'السادات', 'new': ''},
+            {'old': 'سادات', 'new': ''},
             ]
 
     def detect(self, raw_name):
@@ -35,22 +45,8 @@ class Gender_detector:
             return gender[0], name
         
     def replace_per(self, name):
-        old='ي'
-        new='ی'
-        name=name.replace(old, new)
-        
-        old='ک'
-        new='ک'
-        name=name.replace(old, new)
-        
-        old='السادات'
-        new=''
-        name=name.replace(old, new)
-        
-        old='سادات'
-        new=''
-        name=name.replace(old, new)
-        
+        for row in self.replace_chars:
+           name=name.replace(row['old'], row['new'])
         
         return name
     

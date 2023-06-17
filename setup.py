@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="NameGenderFA",                     # This is the name of the package
-    version="0.0.1",                        # The initial release version
+    version="0.0.2",                        # The initial release version
     author="Amirmahdi Mohammadi",                     # Full name of the author
     description="Detecting gender of Persian names with auto cleaning the input",
     long_description=long_description,      # Long description read from the the readme file

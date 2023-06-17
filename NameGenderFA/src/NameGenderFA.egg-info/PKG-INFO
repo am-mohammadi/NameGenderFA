@@ -1,10 +1,14 @@
 Metadata-Version: 2.1
 Name: NameGenderFA
-Version: 0.0.1
-Summary: Detecting gender of persian names with auto cleaning the input
+Version: 0.0.2
+Summary: Detecting gender of Persian names with auto cleaning the input
 Author: Amirmahdi Mohammadi
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NameGenderFA
+Detecting gender of Persian names with auto cleaning the input
