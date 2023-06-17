@@ -1,0 +1,11 @@
+README.md
+setup.py
+NameGenderFA/src/NameGenderFA.egg-info/PKG-INFO
+NameGenderFA/src/NameGenderFA.egg-info/SOURCES.txt
+NameGenderFA/src/NameGenderFA.egg-info/dependency_links.txt
+NameGenderFA/src/NameGenderFA.egg-info/top_level.txt
+NameGenderFA/src/NameGenderFA/NameGenderFA.py
+NameGenderFA/src/NameGenderFA.egg-info/PKG-INFO
+NameGenderFA/src/NameGenderFA.egg-info/SOURCES.txt
+NameGenderFA/src/NameGenderFA.egg-info/dependency_links.txt
+NameGenderFA/src/NameGenderFA.egg-info/top_level.txt
