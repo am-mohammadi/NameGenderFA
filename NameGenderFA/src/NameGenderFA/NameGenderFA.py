@@ -10,7 +10,10 @@ https://github.com/peymanslh/persian-gender-detection
 
 class Gender_detector:
     def __init__(self):
-        self.names=pd.read_excel('names.xlsx')
+        # self.names=pd.read_excel('names.xlsx')
+        print('Loading data...')
+        self.names=pd.read_excel('https://raw.githubusercontent.com/am-mohammadi/NameGenderFA/main/NameGenderFA/src/NameGenderFA/names.xlsx')
+        print('Data loaded.')
         self.perfixes=[
             'سیده',
             'سید'
