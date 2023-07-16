@@ -11,6 +11,7 @@ https://pypi.org/project/NameGenderFA/
 __________________________________________________
 Example:
 
+```python
 from NameGenderFA import NameGenderFA
 
 gd=NameGenderFA.Gender_detector()
@@ -18,6 +19,7 @@ gd=NameGenderFA.Gender_detector()
 name='علی123! عزیزی'
 
 gender, cleaned_name=gd.detect(name)
+```
 __________________________________________________
 output:
 ('male', 'علی')
