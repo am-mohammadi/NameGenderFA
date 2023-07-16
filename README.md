@@ -4,8 +4,9 @@ Detecting the gender of Persian names with automatic cleaning of input
 https://github.com/am-mohammadi/NameGenderFA
 
 Installing:
-
+```
 pip install NameGenderFA
+```
 
 https://pypi.org/project/NameGenderFA/
 __________________________________________________
